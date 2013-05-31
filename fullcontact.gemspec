@@ -10,13 +10,13 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'simplecov', '~> 0.4'
   s.add_development_dependency 'webmock', '~> 1.6'
   s.add_development_dependency 'yard', '~> 0.7'
-  
-  s.add_runtime_dependency 'hashie', '~> 1.2.0'
-  s.add_runtime_dependency 'faraday', '~> 0.7.5'
-  s.add_runtime_dependency 'faraday_middleware', '~> 0.8.6'
-  s.add_runtime_dependency 'multi_json', '~> 1.3.0'
-  s.add_runtime_dependency 'multi_xml', '~> 0.4.2'
-  s.add_runtime_dependency 'rash', '~> 0.3.0'
+
+  s.add_runtime_dependency 'hashie', '>= 2.0.0'
+  s.add_runtime_dependency 'faraday', '>= 0.8.7'
+  s.add_runtime_dependency 'faraday_middleware', '>= 0.9.0'
+  s.add_runtime_dependency 'multi_json', '>= 1.3.0'
+  s.add_runtime_dependency 'multi_xml', '>= 0.5.0'
+  s.add_runtime_dependency 'rash', '>= 0.4.0'
 
   s.authors = "Brandon West, Jai Pandya, Prafulla Kiran"
   s.description = %q{A Ruby wrapper for the FullContact API}
